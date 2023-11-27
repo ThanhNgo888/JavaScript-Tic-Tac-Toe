@@ -6,9 +6,23 @@
   <link rel="stylesheet" href="styles.css">
   <!-- logics go here. Using defer, so it loads after the body of our HTML, SO that way we have access to everything inside the body.-->
   <script src="script.js" defer></script>
-  <title>Tix Tac Toe</title>
+  <title>Tic Tac Toe</title>
 </head>
 <body>
+  <!-- create a board for tic-tac-toe -->
+  <div class="board" id="board">
+    <!-- We need 9 cells for X, O -->
+    <!-- .cell => 1 cell; .cell*9 => 9 cells have being generated. -->
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+  </div>
   
 </body>
 </html>
